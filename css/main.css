@@ -129,7 +129,7 @@ body     { pointer-events: none; }
     display: block;
 }
 
-/* HTML5 PRESENTATION SPECIFIC */
+/* LEAN STARTUP PRESENTATION SPECIFIC */
 
 .step h1 {
     font-size: 60px;
@@ -174,7 +174,7 @@ body     { pointer-events: none; }
   bottom: 0;
 }
 
-/* HTML5 PRESENTATION STEP SPECIFIC */
+/* LEAN STARTUP PRESENTATION STEP SPECIFIC */
 
 .step#home h1, .step#end h1 {font-size: 75px; margin: 0;}
 
@@ -183,65 +183,13 @@ body     { pointer-events: none; }
   bottom: 50px;
 }
 
-.step#starter ul, .step#starter p {
-  margin-top: 50px
-}
-
-.step#starter img {
-  right: 40px; 
-  bottom: 50px;
-}
-
-.step#troll h1 {
-  text-align:center; 
-  font-size: 3em;
-}
-
-.step#troll img {
-  right: 180px; 
-  bottom: 100px;
-}
-
-.step#previously ol {
-  margin-top: 20px;
-}
-
-.step#previously ol li {
-  line-height: 1.6em
-}
-
-.step#mytop h1 {
-  font-size: 70px
-}
-
-.step#mytop h1 b {
-  font-size: 1.6em
-}
-
-.step#mytop img {
-  right: 200px; 
-  bottom: 120px;
-}
-
-.step#install img {
-  bottom: 120px;
-}
-
-.step#install img + img {
-  left: 0;
-}
-
-.step#timetochange h1, .step#timetochange ol {
-  font-size: 1.4em;
-}
-
-.step#timetochange ol {
-  margin-left: 100px
-}
-
 .step#job img {
   right: 200px; 
   bottom: 40px;
+}
+
+.step#job embed {
+  margin-top: 40px;
 }
 
 .step#end h1 {
